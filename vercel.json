@@ -16,6 +16,10 @@
       "dest": "/api/chat.js"
     },
     {
+      "src": "/(.*\\.pdf)",
+      "dest": "/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
