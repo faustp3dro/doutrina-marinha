@@ -6,6 +6,10 @@
       "use": "@vercel/node"
     },
     {
+      "src": "*.pdf",
+      "use": "@vercel/static"
+    },
+    {
       "src": "index.html",
       "use": "@vercel/static"
     }
