@@ -8,12 +8,28 @@
     {
       "src": "index.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "*.pdf",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/chat",
       "dest": "/api/chat.js"
+    },
+    {
+      "src": "/AAP-03.pdf",
+      "dest": "/AAP-03.pdf"
+    },
+    {
+      "src": "/AAP-47.pdf",
+      "dest": "/AAP-47.pdf"
+    },
+    {
+      "src": "/PGA-1.pdf",
+      "dest": "/PGA-1.pdf"
     },
     {
       "src": "/(.*)",
